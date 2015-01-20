@@ -1,0 +1,102 @@
+{
+    "plist": {
+        "array": {
+            "dict": [
+                {
+                    "string": "HOL ALU WLAN", 
+                    "dict": {
+                        "integer": "1", 
+                        "array": {
+                            "integer": [
+                                "4", 
+                                "2"
+                            ]
+                        }, 
+                        "key": "IE_KEY_WPA_VERSION"
+                    }, 
+                    "key": "WPA_IE", 
+                    "integer": "-89", 
+                    "array": {
+                        "integer": [
+                            "1", 
+                            "2", 
+                            "5", 
+                            "6", 
+                            "9", 
+                            "11", 
+                            "12", 
+                            "18", 
+                            "24", 
+                            "36", 
+                            "48", 
+                            "54"
+                        ]
+                    }, 
+                    "data": "SE9MIEFMVSBXTEFO"
+                }, 
+                {
+                    "string": "Panikidis SA", 
+                    "dict": {
+                        "integer": "1", 
+                        "array": {
+                            "integer": "4"
+                        }, 
+                        "key": "IE_KEY_RSN_VERSION"
+                    }, 
+                    "key": "SSID_STR", 
+                    "integer": "-79", 
+                    "array": {
+                        "integer": [
+                            "1", 
+                            "2", 
+                            "5", 
+                            "6", 
+                            "9", 
+                            "11", 
+                            "12", 
+                            "18", 
+                            "24", 
+                            "36", 
+                            "48", 
+                            "54"
+                        ]
+                    }, 
+                    "data": "UGFuaWtpZGlzIFNB"
+                }, 
+                {
+                    "string": "NOKIA Lumia 620_1855", 
+                    "dict": {
+                        "integer": "2", 
+                        "data": "S9i4CklzQZCVlRJXYQu2zQ==", 
+                        "string": "0", 
+                        "key": "IE_KEY_WPS_UUID_E", 
+                        "dict": {
+                            "integer": "0", 
+                            "data": "AFDyAA==", 
+                            "key": "WPS_DEV_TYPE_SUB_CAT"
+                        }
+                    }, 
+                    "key": "WPS_PROB_RESP_IE", 
+                    "integer": "-44", 
+                    "array": {
+                        "integer": [
+                            "1", 
+                            "2", 
+                            "5", 
+                            "6", 
+                            "9", 
+                            "11", 
+                            "12", 
+                            "18", 
+                            "24", 
+                            "36", 
+                            "48", 
+                            "54"
+                        ]
+                    }, 
+                    "data": "Tk9LSUEgTHVtaWEgNjIwXzE4NTU="
+                }
+            ]
+        }
+    }
+}
