@@ -1,0 +1,215 @@
+Found a 15 line (55 tokens) duplication in the following files: 
+Starting at line 34 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 30 of /home/user/Downloads/HR/src/hr/softeng/com/Connect.java
+
+		   System.out.println("Connecting to a selected database...");
+		   //Class.forName("com.mysql.jdbc.Driver").newInstance();
+		   conn = DriverManager.getConnection(DB_URL, USER, PASS);
+		   System.out.println("Connected database successfully...");
+		   
+		}catch(SQLException se){
+			//Handle errors for JDBC
+			se.printStackTrace();
+		}catch(Exception e){
+			//Handle errors for Class.forName
+			e.printStackTrace();
+		}//end try
+	}//end dbconnect
+	
+	public void disConn(){
+=====================================================================
+Found a 12 line (34 tokens) duplication in the following files: 
+Starting at line 72 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 101 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 245 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 269 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 296 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 321 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 349 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+		      System.out.println("Created Points table");
+		      stmt.close();
+		   }catch(SQLException se){
+		      //Handle errors for JDBC
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      //Handle errors for Class.forName
+		      e.printStackTrace();
+		   }//end try
+	}
+	
+	public void createAccTable(){ //(3) kai afto to ekteloume mono 1 fora gia na ftiaxntoun oi pinakes me ta accounts
+=====================================================================
+Found a 11 line (33 tokens) duplication in the following files: 
+Starting at line 73 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 102 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 202 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 246 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 270 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 297 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 322 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 350 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+		      stmt.close();
+		   }catch(SQLException se){
+		      //Handle errors for JDBC
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      //Handle errors for Class.forName
+		      e.printStackTrace();
+		   }//end try
+	}
+	
+	public void createAccTable(){ //(3) kai afto to ekteloume mono 1 fora gia na ftiaxntoun oi pinakes me ta accounts
+=====================================================================
+Found a 10 line (32 tokens) duplication in the following files: 
+Starting at line 72 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 101 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 245 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 269 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 296 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 321 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 349 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 429 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+		      System.out.println("Created Points table");
+		      stmt.close();
+		   }catch(SQLException se){
+		      //Handle errors for JDBC
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      //Handle errors for Class.forName
+		      e.printStackTrace();
+		   }//end try
+	}
+=====================================================================
+Found a 11 line (32 tokens) duplication in the following files: 
+Starting at line 73 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 102 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 202 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 246 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 270 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 297 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 322 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 350 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 386 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+		      stmt.close();
+		   }catch(SQLException se){
+		      //Handle errors for JDBC
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      //Handle errors for Class.forName
+		      e.printStackTrace();
+		   }//end try
+	}
+	
+	public void createAccTable(){ //(3) kai afto to ekteloume mono 1 fora gia na ftiaxntoun oi pinakes me ta accounts
+=====================================================================
+Found a 9 line (31 tokens) duplication in the following files: 
+Starting at line 202 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 430 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+	      stmt.close();
+	   }catch(SQLException se){
+	      //Handle errors for JDBC
+	      se.printStackTrace();
+	   }catch(Exception e){
+	      //Handle errors for Class.forName
+	      e.printStackTrace();
+	   }
+	}//end addPerson
+=====================================================================
+Found a 14 line (30 tokens) duplication in the following files: 
+Starting at line 386 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 430 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+	      ps.close();
+	      /*
+	      setChanged();
+	      notifyObservers();
+	      */
+	      
+	   }catch(SQLException se){
+	      //Handle errors for JDBC
+	      se.printStackTrace();
+	   }catch(Exception e){
+	      //Handle errors for Class.forName
+	      e.printStackTrace();
+	   }
+	}//end addPerson
+=====================================================================
+Found a 12 line (29 tokens) duplication in the following files: 
+Starting at line 37 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 73 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 102 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 202 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 246 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 270 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 297 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 322 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 350 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 386 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+
+		   System.out.println("Connected database successfully...");
+		   
+		}catch(SQLException se){
+			//Handle errors for JDBC
+			se.printStackTrace();
+		}catch(Exception e){
+			//Handle errors for Class.forName
+			e.printStackTrace();
+		}//end try
+	}//end dbconnect
+	
+	public void disConn(){
+=====================================================================
+Found a 11 line (28 tokens) duplication in the following files: 
+Starting at line 73 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 102 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 202 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 246 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 270 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 297 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 322 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 350 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 386 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 32 of /home/user/Downloads/HR/src/hr/softeng/com/Connect.java
+
+		      stmt.close();
+		   }catch(SQLException se){
+		      //Handle errors for JDBC
+		      se.printStackTrace();
+		   }catch(Exception e){
+		      //Handle errors for Class.forName
+		      e.printStackTrace();
+		   }//end try
+	}
+	
+	public void createAccTable(){ //(3) kai afto to ekteloume mono 1 fora gia na ftiaxntoun oi pinakes me ta accounts
+=====================================================================
+Found a 10 line (27 tokens) duplication in the following files: 
+Starting at line 37 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 430 of /home/user/Downloads/HR/src/hr/softeng/com/HRModel.java
+Starting at line 32 of /home/user/Downloads/HR/src/hr/softeng/com/Connect.java
+
+		   System.out.println("Connected database successfully...");
+		   
+		}catch(SQLException se){
+			//Handle errors for JDBC
+			se.printStackTrace();
+		}catch(Exception e){
+			//Handle errors for Class.forName
+			e.printStackTrace();
+		}//end try
+	}//end dbconnect
+=====================================================================
+Found a 5 line (25 tokens) duplication in the following files: 
+Starting at line 134 of /home/user/Downloads/HR/src/hr/softeng/com/jframe.java
+Starting at line 91 of /home/user/Downloads/HR/src/hr/softeng/com/HRView.java
+
+		exit_button.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
+			}
+		});
